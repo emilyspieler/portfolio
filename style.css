@@ -98,22 +98,3 @@ div.col-md-6{
   margin-top: 2%;
   margin-bottom: 2%;
 }
-
-a:active {
-  color: white;
-  text-decoration: none;
-}
-
-a:hover {
-  color: blue;
-  text-decoration: none;
-}
-
-a:visited {
-  color: white !important;
-  text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-}
