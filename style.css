@@ -30,7 +30,7 @@ button.btn {
   margin: auto;
   background-color: rgb(0, 0, 0, .30);
   border-radius: 25px;
-  height: 250px;
+  height: 300px;
   margin-bottom: 2%;
 }
 
@@ -96,5 +96,20 @@ body {
 
 div.col-md-6{
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+      background-color: #23A6D5;
+    }
+
+    .jumbotron {
+      color: black;
+      margin: auto;
+      background-color: rgb(0, 0, 0, .30);
+      border-radius: 25px;
+      height: 300px;
+      margin-bottom: 2%;
+    }
 }
