@@ -34,6 +34,11 @@ button.btn {
   height: 300px;
   margin-bottom: 2%;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -67,13 +72,7 @@ button.btn {
 
 .thumbnail {
   border: 0px !important;
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
-            animation: fadein 2s;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-  transition: all .4s ease-in-out;
 }
 
 .thumbnail:hover {
