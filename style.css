@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cedarville Cursive', cursive !important;
   font-weight: 800;
   font-size: 20px;
   margin: auto;
@@ -7,11 +7,15 @@ h1 {
 }
 
 h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cedarville Cursive', cursive !important;
   font-weight: 800;
   font-size: 40px;
   margin: auto;
   text-align: center;
+}
+
+img.img-responsive.img-circle {
+  margin-bottom: 3%;
 }
 
 p {
@@ -20,8 +24,12 @@ p {
   text-align: center;
   padding-left: 10%;
   padding-right: 10%;
+  font-style: italic;
 }
 
+.navbar-brand {
+  font-family: 'Cedarville Cursive', cursive !important;
+}
 
 button.btn {
   text-align: center;
@@ -53,7 +61,7 @@ div.jumbotron.text-center {
   color: white;
   margin: auto;
   background-color: rgb(0, 0, 0, .30);
-  height: 500px;
+  height: 550px;
   margin-bottom: 2%;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
