@@ -4,6 +4,7 @@ h1 {
   font-size: 20px;
   margin: auto;
   text-align: center;
+  /* filter: drop-shadow(2px 2px 2px #7d4180); */
 }
 
 h2 {
@@ -12,6 +13,10 @@ h2 {
   font-size: 40px;
   margin: auto;
   text-align: center;
+}
+
+nav.navbar.navbar-default {
+  margin-bottom: 50px;
 }
 
 img.img-responsive.img-circle {
@@ -40,13 +45,15 @@ button.btn {
   bottom: 0;
   margin: auto;
   margin-top: 3%;
+  width: 300px;
+  height: 75px;
 }
 
 div.jumbotron.text-center {
-  color: black;
+  color: #505058;
   background-color: white;
   margin: auto;
-  height: 250px;
+  height: 200px;
   box-shadow: none;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -143,7 +150,7 @@ img.img-circle {
 
 p.contact {
   bottom: 1px;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 @media screen and (max-width: 600px) {
@@ -166,7 +173,7 @@ p.contact {
 
     p.contact {
       bottom: 1px;
-      margin-top: 50%;
+      margin-top: 30%;
     }
 
     .jumbotron {
