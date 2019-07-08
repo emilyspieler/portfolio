@@ -150,7 +150,7 @@ img.img-circle {
 
 p.contact {
   bottom: 1px;
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 @media screen and (max-width: 600px) {
@@ -187,8 +187,8 @@ p.contact {
     button.btn {
       margin-left: auto;
       text-align: center;
-      background-color: black;
-      color: white;
+      background-color: white;
+      color: blue;
     }
 
     .social img{
