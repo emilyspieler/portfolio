@@ -162,7 +162,7 @@ p.contact {
       color: black;
       background-color: white;
       margin: auto;
-      height: 200px;
+      height: 225px;
       box-shadow: none;
       -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
            -moz-animation: fadein 2s; /* Firefox < 16 */
